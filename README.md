@@ -15,22 +15,20 @@ Make sure you have you have the latest version of Docker (e.g. >25) and VS Code 
 
 In Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](hhtps://gitpod.io/https://github.com/kimbrian1223/icp-simple-site)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ICPHubPH/icp-simple-site/#https://github.com/kimbrian1223/icp-simple-site)
 
 ## 🚀 Develop
 
 When the editor opened, run the following commands to start a local ICP node and deploy the canister smart contract:
 
-```bash
 dfx start --clean # Start a local ICP node
 # In a new terminal window:
 dfx deploy # Deploy smart contract locally
-```
 
-To redeploy the smart contract, run `dfx deploy` again.
+To redeploy the smart contract, run dfx deploy again.
 
-When ready, run `dfx deploy --playground` to deploy your application to the ICP playground.
+When ready, run dfx deploy --playground to deploy your application to the ICP playground.
 
 ## 💡 Tips and Tricks
 
-- If you get an error "Error: An error happened during communication with the replica: ... Connection refused", run `dfx start --clean` to start dfx.
+- If you get an error "Error: An error happened during communication with the replica: ... Connection refused", run dfx start --clean to start dfx.
